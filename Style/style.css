@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(35, 34, 34);
+}
+
+.board{
+    display:  flex;
+    justify-content:  center;
+    margin-top: 20px;
+    color: rgb(89, 255, 255);
+    font-size: 50px;
+}
+
+.mainboard{
+    display: block;
+    height: 500px;
+    width: 500px;
+    /* border: 2px solid black;  */
+}
+.rows{
+    margin-top: 5px;
+    display: flex;
+    height: 164px;
+    width: 500px;
+    border: 2px solid rgb(250, 250, 250);   
+}
+.rowdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 251, 251);
+    width: 200px;
+    font-size: 55px;
+}
+.button{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.button button{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: auto;
+}
+
+.winner{
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: bolder;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(112, 255, 2);
+    border-radius: 20px;
+    padding: 8px;
+    color: rgb(19, 255, 176);
+
+}
+
+.winnerflex{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+}
+.main .title{
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    color: aqua;
+}
+
+.main .about{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: aqua;
+}
